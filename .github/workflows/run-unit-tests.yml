@@ -12,4 +12,4 @@ jobs:
          - name: Checkout
            uses: actions/checkout@v6.0.2
          - name: print message 
-           run: echo "Hello Guest welcome "
+           run: mvn clean tests
